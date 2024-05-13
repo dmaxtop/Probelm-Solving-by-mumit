@@ -1,0 +1,13 @@
+def determine_winner(n, coins):
+    facing_up_count = coins.count('U')
+    if facing_up_count % 2 == 1:
+        return "YES"
+    else:
+        return "NO"
+
+t = int(input())
+
+for _ in range(t):
+    n = int(input())
+    coins = input().strip()
+    print(determine_winner(n, coins))
