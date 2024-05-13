@@ -1,0 +1,20 @@
+test=int(input())
+for i in  range(test):
+    x=0
+    y=0
+    n=int(input())
+    b=str(input())
+    msg="NO"
+    for j in b:
+        if j=="U":
+           y+=1
+        elif j=="D":
+            y-=1
+        elif j=="L":
+            x-=1
+        elif j=="R":
+            x+=1
+        if x==1 and y==1:
+            msg="YES"
+            break
+    print(msg)
