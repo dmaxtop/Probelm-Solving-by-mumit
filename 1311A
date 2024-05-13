@@ -1,0 +1,16 @@
+cases=int(input())
+for i in range(cases):
+  a,b=map(int, input().split())
+  diff=a-b
+  if diff<0:
+    if diff%2==0:
+      print(2)
+    else:
+      print(1)
+  elif diff>0:
+    if diff%2==1:
+      print(2)
+    else:
+      print(1)
+  else:
+    print(0)
