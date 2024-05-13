@@ -1,0 +1,16 @@
+x=int(input())
+steps=0
+cal=x//5
+steps+=cal
+x=x%5
+cal=x//4
+steps+=cal
+x=x%4
+cal=x//3
+steps+=cal
+x=x%3
+cal=x//2
+steps+=cal
+x=x%2
+steps+=x
+print(steps)
