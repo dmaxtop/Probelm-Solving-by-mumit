@@ -1,0 +1,10 @@
+t=int(input())
+for i in range(t):
+    l=int(input())
+    b=input().split(" ")
+    beu="NO"
+    for i in range(1,l+1):
+        if int(b[i-1])<=i:
+                beu="Yes"
+                break
+    print(beu)
