@@ -1,0 +1,14 @@
+a=str(input())
+last=""
+count=0
+danger=False
+for i in a:
+  if i==last:
+    count+=1
+  else:
+    last=i
+    count=0
+  if count==6:
+    danger=True
+    break  
+print("YES") if danger else print("NO")
