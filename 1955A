@@ -1,0 +1,11 @@
+def min_cost(n, a, b):
+    
+    cost_individual = n * a
+    cost_pairs = (n // 2) * b + (n % 2) * a
+    return min(cost_individual, cost_pairs)
+
+
+t = int(input())
+for _ in range(t):
+    n, a, b = map(int, input().split())
+    print(min_cost(n, a, b))
