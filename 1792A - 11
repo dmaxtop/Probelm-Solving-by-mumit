@@ -1,0 +1,15 @@
+import math
+test=int(input())
+for i in range(test):
+  monster_number=int(input())
+  health=list(map(int,input().split()))
+  health.sort()
+  countone=0
+  hit=0
+  for i in health:
+    if i != 1:
+      hit+=1
+    else:
+      countone+=1
+  hit+=math.ceil(countone/2)
+  print(hit)
