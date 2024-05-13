@@ -1,0 +1,21 @@
+b=int(input())
+ap=0
+for a in range(b+1):
+    sum=0
+    if a==1:
+        pass
+    else:
+        for i in range(2,a): 
+            if a%i==0 :
+                am=True
+                for j in range(2,i):
+                    if i%j==0:
+                        am=False
+                        break
+                if am:
+                    sum+=1
+                if sum ==3:
+                    break
+        if sum==2:
+            ap+=1
+print(ap)
