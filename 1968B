@@ -1,0 +1,24 @@
+def max_prefix_subsequence(a, b):
+    n = len(a)
+    m = len(b)
+    
+    i = 0  
+    j = 0  
+    k = 0  
+    while i < n and j < m:
+        if a[i] == b[j]:
+            i += 1
+            j += 1
+            k = i  
+        else:
+            j += 1
+    
+    return k
+
+t = int(input())
+
+for _ in range(t):
+    n, m = map(int, input().split())
+    a = input().strip()
+    b = input().strip()
+    print(max_prefix_subsequence(a, b))
