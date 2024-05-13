@@ -1,0 +1,13 @@
+test=int(input())
+for i in range(test):
+  n=int(input())
+  lenz=n-1
+  newstr=""
+  length=0
+  binary=str(input())
+  for j in range(n):
+    if binary[j]==binary[lenz]:
+      length=lenz-j+1
+      break
+    lenz-=1
+  print(length)
