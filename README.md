@@ -1,14 +1,12 @@
-# Solves-for-MJK
-#This file includes 20 problems solved from code forces.
+# Problem-Solving Frenzy
+#This file includes 20 problems solved from Codeforces.
 
 
-#These are all the problems I solved so far. Among them, I attached 20 of them specifically from code forces. 
+#These are all the problems I solved so far. Among them, I attached 20 specifically from Codeforces. 
 
 #Done by Al Mumit Siddiqui
-#My student ID is 22299338
-#From Section 6
-#According to your estimation 20 codes could carry a bonus of 5 marks. 
-#Thank you sir for such a challenge, I learned a lot during these hours. I made helpful friends and found a new interest, I will forever be grateful to you. 
+
+I learned a lot during these hours. I made helpful friends and found a new interest. 
 
 
 ![hackrank2](https://github.com/dmaxtop/Solves-for-MJK/assets/125289765/f091bbb4-008d-470f-8f28-da1b863478f6)
